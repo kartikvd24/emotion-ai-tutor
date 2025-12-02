@@ -1,0 +1,8 @@
+{
+  "name": "emotion-aware-ai-tutor",
+  "description": "A multimodal AI tutor dashboard that visualizes real-time engagement and emotion metrics while providing adaptive tutoring via Gemini.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
