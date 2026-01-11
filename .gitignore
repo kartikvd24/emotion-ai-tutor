@@ -4,62 +4,58 @@ __pycache__/
 *$py.class
 *.so
 .Python
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
-*.egg-info/
-.installed.cfg
-*.egg
-
-# Virtual Environment
 venv/
 env/
 ENV/
 .venv
+*.egg-info/
+dist/
+build/
 
-# IDE
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints
+
+# Models (large files)
+*.pth
+*.h5
+*.pb
+*.onnx
+
+# Data (large files)
+data/fer2013/
+data/ravdess/
+data/processed/
+
+# Environment
+.env
+.env.local
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# IDEs
 .vscode/
 .idea/
 *.swp
 *.swo
 *~
-
-# Jupyter Notebook
-.ipynb_checkpoints
-*.ipynb_checkpoints/
-
-# Environment variables
-.env
-.env.local
-
-# Data and Models
-data/fer2013/
-data/ravdess/
-data/processed/
-models/*.pth
-models/*.pkl
-models/*.h5
+.DS_Store
 
 # Logs
-logs/
 *.log
+training_log.txt
+*.log.*
 
 # OS
 .DS_Store
 Thumbs.db
 
-# Streamlit
-.streamlit/
-
-# Cache
-*.cache
-.pytest_cache/
+# Temporary files
+*.tmp
+*.temp
+*.bak
